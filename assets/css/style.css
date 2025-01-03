@@ -573,9 +573,9 @@ header .navbar ul li a:hover {
   width: 100%;
 }
 .education .box-container .box img {
-  object-fit: cover;
+  object-fit: contain;
   position: relative;
-  width: 90%;
+  width: 100%;
 }
 .education .box-container .box .content {
   position: relative;
