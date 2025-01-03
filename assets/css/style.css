@@ -574,6 +574,7 @@ header .navbar ul li a:hover {
   justify-content: center;
   max-height: 200px;
   height: auto;
+  padding: 10px;
 }
 .education .box-container .box img {
   object-fit: contain;
