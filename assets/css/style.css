@@ -614,8 +614,9 @@ header .navbar ul li a:hover {
     width: 100%;
   }
   .education .box-container .box .image {
-    width: 100%;
-    height: 25rem;
+  width: 130px; 
+  height: auto; 
+  margin: 0 auto; 
   }
   .education .box-container .box img {
     width: 100%;
