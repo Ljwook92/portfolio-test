@@ -620,6 +620,7 @@ header .navbar ul li a:hover {
   }
   .education .box-container .box img {
     width: 100%;
+    object-fit: contain;
   }
   .education .box-container .box .content {
     position: relative;
