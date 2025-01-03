@@ -573,7 +573,7 @@ header .navbar ul li a:hover {
   width: 100%;
 }
 .education .box-container .box img {
-  object-fit: contain;
+  object-fit: contain !important;
   position: relative;
   width: 100%;
 }
