@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Bayesian Statistics", "Machine Learning", "Spatiotemporal Models", "Natural Language Processing", "Computer Vision"],
+    strings: ["Bayesian Statistics", "Machine Learning", "Spatiotemporal Models", "Natural Language", "Computer Vision"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
