@@ -569,13 +569,17 @@ header .navbar ul li a:hover {
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .education .box-container .box .image {
-  flex: 1 1 20rem;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 200px;
+  height: auto;
 }
 .education .box-container .box img {
-  object-fit: contain !important;
-  position: relative;
-  width: 100%;
+  object-fit: contain;
+  max-height: 150px;
+  height: auto;
+  margin: 0 auto;
 }
 .education .box-container .box .content {
   position: relative;
