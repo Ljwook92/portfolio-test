@@ -1,6 +1,6 @@
 [
   {
-    "name": "Machine Learning (Binary Target) Ver. 1",
+    "name": "ML with Binary Target Ver. 1",
     "desc": "GUI for Binary Target Machine Learning, Version 1",
     "image": "https://Ljwook92.github.io/portfolio-test/assets/images/projects/ML_target_1",
     "category": "GUI",
@@ -9,7 +9,7 @@
     }
   },
     {
-    "name": "Machine Learning (Binary Target) Ver. 2",
+    "name": "ML with Binary Target Ver. 2",
     "desc": "GUI for Binary Target Machine Learning, Version 2",
     "image": "ML_target_1",
     "category": "GUI",
@@ -18,7 +18,7 @@
     }
   },
    {
-    "name": "Machine Learning (Multinominal Target)",
+    "name": "ML with Multinominal Target",
     "desc": "GUI for Multinominal Target Machine Learning, Version 2",
     "image": "ML_target_1",
     "category": "GUI",
