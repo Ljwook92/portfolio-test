@@ -2,7 +2,7 @@
   {
     "name": "ML with Binary Target Ver. 1",
     "desc": "GUI for Binary Target Machine Learning, Version 1",
-    "image": "ML_target_1",
+    "imagePath": "./images/ML_target_1.png",
     "category": "GUI",
     "links": {
       "view": "https://leehoo1928.shinyapps.io/MachineLearning/"
@@ -11,7 +11,7 @@
     {
     "name": "ML with Binary Target Ver. 2",
     "desc": "GUI for Binary Target Machine Learning, Version 2",
-    "image": "ML_target_1",
+    "imagePath": "/images/ML_target_2.png",
     "category": "GUI",
     "links": {
       "view": "https://jjjjye.shinyapps.io/MachineLearning_Ver2/"
@@ -20,7 +20,7 @@
    {
     "name": "ML with Multinominal Target",
     "desc": "GUI for Multinominal Target Machine Learning, Version 2",
-    "image": "ML_target_1",
+    "image": "./projects/images/ML_target_1.png",
     "category": "GUI",
     "links": {
       "view": "https://jjjjye.shinyapps.io/MachineLearning_Multinomial/"
