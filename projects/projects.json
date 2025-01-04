@@ -2,10 +2,19 @@
   {
     "name": "Machine Learning (Binary Target) Ver. 1",
     "desc": "GUI for Binary Target Machine Learning, Version 1",
-    "image": "notystackandroid",
+    "image": "https://yourusername.github.io/portfolio-test/assets/images/projects/ML_target_1",
     "category": "GUI",
     "links": {
       "view": "https://leehoo1928.shinyapps.io/MachineLearning/"
+    }
+  },
+    {
+    "name": "Machine Learning (Binary Target) Ver. 2",
+    "desc": "GUI for Binary Target Machine Learning, Version 2",
+    "image": "notystackandroid",
+    "category": "GUI",
+    "links": {
+      "view": "https://jjjjye.shinyapps.io/MachineLearning_Ver2/"
     }
   }
 ]
