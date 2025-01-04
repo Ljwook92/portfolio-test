@@ -11,7 +11,7 @@
     {
     "name": "ML with Binary Target Ver. 2",
     "desc": "GUI for Binary Target Machine Learning, Version 2",
-    "imagePath": "/projects/images/ML_target_2.png",
+    "imagePath": "projects/images/ML_target_2.png",
     "category": "GUI",
     "links": {
       "view": "https://jjjjye.shinyapps.io/MachineLearning_Ver2/"
