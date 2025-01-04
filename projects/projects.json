@@ -2,7 +2,7 @@
   {
     "name": "ML with Binary Target Ver. 1",
     "desc": "GUI for Binary Target Machine Learning, Version 1",
-    "imagePath": "./images/ML_target_1.png",
+    "imagePath": "projects/images/ML_target_1.png",
     "category": "GUI",
     "links": {
       "view": "https://leehoo1928.shinyapps.io/MachineLearning/"
