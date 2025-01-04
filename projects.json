@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ML with Binary Target Ver. 1",
+    "desc": "GUI for Binary Target Machine Learning, Version 1",
+    "image": "ML_target_1",
+    "category": "GUI",
+    "links": {
+      "view": "https://leehoo1928.shinyapps.io/MachineLearning/"
+    }
+  },
+    {
+    "name": "ML with Binary Target Ver. 2",
+    "desc": "GUI for Binary Target Machine Learning, Version 2",
+    "image": "ML_target_1",
+    "category": "GUI",
+    "links": {
+      "view": "https://jjjjye.shinyapps.io/MachineLearning_Ver2/"
+    }
+  },
+   {
+    "name": "ML with Multinominal Target",
+    "desc": "GUI for Multinominal Target Machine Learning, Version 2",
+    "image": "ML_target_1",
+    "category": "GUI",
+    "links": {
+      "view": "https://jjjjye.shinyapps.io/MachineLearning_Multinomial/"
+    }
+  },
+    {
+    "name": "Group Statistics",
+    "desc": "GUI for Group Statistics",
+    "image": "ML_target_1",
+    "category": "GUI",
+    "links": {
+      "view": "https://leehoo1928.shinyapps.io/GroupStatistics/"
+    }
+  },
+    {
+    "name": "Visualization Ver. 1",
+    "desc": "GUI for Visualization Ver. 1",
+    "image": "ML_target_1",
+    "category": "GUI",
+    "links": {
+      "view": "https://leehoo1928.shinyapps.io/ggplot_Ver1/"
+    }
+  },
+    {
+    "name": "Visualization Ver. 2",
+    "desc": "GUI for Visualization Ver. 2",
+    "image": "ML_target_1",
+    "category": "GUI",
+    "links": {
+      "view": "https://leehoo1928.shinyapps.io/ggplot_Ver2/"
+    }
+  },
+   {
+    "name": "Live Stocks Chart and Analysis",
+    "desc": "GUI for Live Stocks Chart and Analysis",
+    "image": "ML_target_1",
+    "category": "GUI",
+    "links": {
+      "view": "https://jjjjye.shinyapps.io/Stock_Analysis/?_ga=2.13087799.1238777430.1640271871-792695266.1617629051/"
+    }
+  }
+]
