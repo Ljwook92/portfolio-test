@@ -155,20 +155,20 @@ header .navbar ul li a:hover{
 }
 /* hamburger icon ends */
 
-/* projects section starts */
-.projects{
+/* publications section starts */
+.publications{
   /* background: #010124; */
   background: linear-gradient(to bottom, #010136, #00003a);
   margin-top: 5rem;
 }
-.projects h2{
+.publications h2{
   color: #fff;
   padding: 1rem;
 }
-.projects .heading span{
+.publications .heading span{
   color: rgb(255, 230, 0);
 }
-.projects .button-group{
+.publications .button-group{
   display: flex;
   flex-wrap: wrap;
   gap:1rem;
@@ -177,7 +177,7 @@ header .navbar ul li a:hover{
   justify-content: center;
   align-items: center;
 }
-.projects .button-group .btn{
+.publications .button-group .btn{
   outline: none;
   padding: 1rem 2rem;
   background: transparent;
@@ -187,21 +187,21 @@ header .navbar ul li a:hover{
   cursor: pointer;
   font-weight: 500;
 }
-.projects .button-group .btn:hover{
+.publications .button-group .btn:hover{
   background-color: #fff;
   color: #000;
 }
-.projects .button-group .btn.is-checked{
+.publications .button-group .btn.is-checked{
   background-color: #fff;
   color: #000;
 }
-.projects .box-container{
+.publications .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
   margin: 2rem;
 }
-.projects .box-container .box{
+.publications .box-container .box{
   flex:1 1 30rem;
   border-radius: .5rem;
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
@@ -211,12 +211,12 @@ header .navbar ul li a:hover{
   background: #fff;
   border: none;
 }
-.projects .box-container .box img{
+.publications .box-container .box img{
   height: 100%;
   width:100%;
   object-fit: cover;
 }
-.projects .box-container .box .content{
+.publications .box-container .box .content{
   height: 100%;
   width:100%;
   position: absolute;
@@ -225,7 +225,7 @@ header .navbar ul li a:hover{
   display: flex;
   flex-direction: column;
 }
-.projects .box-container .box .content .tag{
+.publications .box-container .box .content .tag{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -235,28 +235,28 @@ header .navbar ul li a:hover{
   padding-left: 1rem;
   background: #ffd900;
 }
-.projects .box-container .box .content .tag h3{
+.publications .box-container .box .content .tag h3{
   font-size: 2rem;
 }
-.projects .box-container .box:hover .content{
+.publications .box-container .box:hover .content{
   top: 25%;
 }
-.projects .desc {
+.publications .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.projects .desc p{
+.publications .desc p{
   font-size: 1.5rem;
 }
-.projects .desc .btns{
+.publications .desc .btns{
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
-.projects .desc .btns .btn{
+.publications .desc .btns .btn{
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -266,18 +266,18 @@ header .navbar ul li a:hover{
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.projects .desc .btns .btn:hover{
+.publications .desc .btns .btn:hover{
   background: #310ae0f5;
 }
 
 @media screen and (max-width: 450px) {
-  .projects .button-group{
+  .publications .button-group{
     width: 100%;
   }
-  .projects .box-container{
+  .publications .box-container{
     margin: 0rem;
   }
-  .projects .box-container .grid-item .box{
+  .publications .box-container .grid-item .box{
     width: 95% !important;
   }
 }
@@ -317,7 +317,7 @@ header .navbar ul li a:hover{
 .backbtn .btn:hover i {
   transform: translateX(-8px);
 }
-/* projects section ends */
+/* publications section ends */
 
 /* common media queries starts*/
 @media(max-width:450px){
