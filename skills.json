@@ -6,7 +6,11 @@
     {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
+    },    
+    {
+        "name": "Pycharm",
+        "icon": "https://img.icons8.com/color/48/pycharm--v2.png"
+    }, 
     {
         "name": "MySQL",
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
@@ -16,7 +20,7 @@
         "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
     },
     {
-        "name": "Visual Studio",
+        "name": "VS Code",
         "icon": "https://img.icons8.com/fluency/48/visual-studio-code-2019.png"
     },
     {
@@ -30,9 +34,14 @@
     {
         "name": "HTML",
         "icon": "https://img.icons8.com/color/48/html-5--v1.png"
-    },    
+    },
     {
-        "name": "Final Cut Pro",
+        "name": "JSON",
+        "icon": "https://img.icons8.com/fluency/48/json.png"
+    },
+    {
+        "name": "Final-Cut",
         "icon": "https://img.icons8.com/color/48/final-cut-pro-new.png"
     }  
 ]
+
