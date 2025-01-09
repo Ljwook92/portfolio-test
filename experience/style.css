@@ -155,6 +155,18 @@ header .navbar ul li a:hover{
 }
 /* hamburger icon ends */
 
+/* publication starts*/
+.publication-list h3, .publication-list ul {
+    display: none;
+}
+.publication-list h3.selected, .publication-list ul.selected {
+    display: block;
+}
+.publication-list h3.accepted, .publication-list ul.accepted {
+    display: block;
+}
+/* publication end*/
+
 /* experience section starts */
 .experience {
   margin-top: 5rem;
