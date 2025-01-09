@@ -33,6 +33,12 @@
 
 <!-- publications section starts -->
 <section class="experience" id="experience">
+    
+  <div id="filters" class="button-group">
+    <button class="btn is-checked" data-filter="*">All Publications</button>
+    <button class="btn" data-filter=".mern">Selected Publications</button>
+    <button class="btn" data-filter=".lamp">Accepted Papers</button>
+  </div>
 
   <h2 class="heading"><i class="fas fa-briefcase"></i>Publications</h2>
   <div class="quote">
@@ -41,7 +47,7 @@
 
   <div class="publications-list">
     <h3>Selected Publications</h3>
-<ul>
+    <ul class="selected">
     <li>
         <a href="https://www.aimspress.com/article/doi/10.3934/math.20241383?viewType=HTML">Y. E. Jeon, Y. Kim and J. I. Seo (2024) Predictive analysis of doubly Type-Ⅱ censored models, AIMS Mathematics, 9, 28508-28525.</a>
     </li>
@@ -257,7 +263,7 @@ progressively Type-II censoring, Communications for Statistical Applications and
 
 
     <h3>Accepted Papers</h3>
-    <ul>
+    <ul class="accepted">
         <li>
         Y. E. Jeon, Y. Kim and <strong>J. I. Seo</strong> (2024) Extreme value model under an adaptive progressive Type-II censoring: Application of a pivotal quantity, 
         <i>Communications for Statistical Applications and Methods</i>.
