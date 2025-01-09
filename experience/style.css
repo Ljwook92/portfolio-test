@@ -294,6 +294,18 @@ header .navbar ul li a:hover{
   transform: translateX(-8px);
 }
 
+/* Publication */
+.publication-list h3, .publication-list ul {
+    display: none;
+}
+.publication-list h3.selected, .publication-list ul.selected {
+    display: block;
+}
+.publication-list h3.accepted, .publication-list ul.accepted {
+    display: block;
+}
+/* Publication end*/
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .experience .timeline::after {
