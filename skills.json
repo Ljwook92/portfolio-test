@@ -16,11 +16,15 @@
         "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
     },
     {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
+        "name": "Visual Studio",
+        "icon": "https://img.icons8.com/fluency/48/visual-studio-code-2019.png"
     },
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }   
+    },
+    {
+        "name": "Final Cut Pro",
+        "icon": "https://img.icons8.com/color/48/final-cut-pro-new.png"
+    }  
 ]
