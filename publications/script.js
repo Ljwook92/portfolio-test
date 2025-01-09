@@ -20,19 +20,19 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
+            document.title = "Personal Website | Jung-In Seo";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favhand.png");
+            document.title = "Come Back To Personal Website";
+            $("#favicon").attr("href", "/assets/images/whitebear.jpg");
         }
     });
 
 
-// fetch projects start
-function getProjects() {
-    return fetch("projects.json")
+// fetch publications start
+function getpublications() {
+    return fetch("publications.json")
         .then(response => response.json())
         .then(data => {
             return data
@@ -40,11 +40,11 @@ function getProjects() {
 }
 
 
-function showProjects(projects) {
-    let projectsContainer = document.querySelector(".projects .box-container");
-    let projectsHTML = "";
-    projects.forEach(project => {
-        projectsHTML += `
+function showpublications(publications) {
+    let publicationsContainer = document.querySelector(".publications .box-container");
+    let publicationsHTML = "";
+    publications.forEach(project => {
+        publicationsHTML += `
         <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
       <img draggable="false" src="${project.imagePath}" alt="project" />
@@ -62,7 +62,7 @@ function showProjects(projects) {
     </div>
     </div>`
     });
-    projectsContainer.innerHTML = projectsHTML;
+    publicationsContainer.innerHTML = publicationsHTML;
 
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -78,8 +78,8 @@ function showProjects(projects) {
     //     reset: true
     // });
 
-    // /* SCROLL PROJECTS */
-    // srtop.reveal('.projects .box', { interval: 200 });
+    // /* SCROLL publications */
+    // srtop.reveal('.publications .box', { interval: 200 });
 
     // isotope filter products
     var $grid = $('.box-container').isotope({
@@ -99,10 +99,10 @@ function showProjects(projects) {
     });
 }
 
-getProjects().then(data => {
-    showProjects(data);
+getpublications().then(data => {
+    showpublications(data);
 })
-// fetch projects end
+// fetch publications end
 
 // Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
