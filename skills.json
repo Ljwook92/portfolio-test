@@ -24,6 +24,14 @@
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
     {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/javascript--v1.png"
+    },
+    {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/color/48/html-5--v1.png"
+    },    
+    {
         "name": "Final Cut Pro",
         "icon": "https://img.icons8.com/color/48/final-cut-pro-new.png"
     }  
