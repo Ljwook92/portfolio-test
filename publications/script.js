@@ -41,7 +41,7 @@ function getProjects() {
 
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector(".work .box-container");
+    let projectsContainer = document.querySelector(".projects .box-container");
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `
@@ -79,7 +79,7 @@ function showProjects(projects) {
     // });
 
     // /* SCROLL PROJECTS */
-    // srtop.reveal('.work .box', { interval: 200 });
+    // srtop.reveal('.projects .box', { interval: 200 });
 
     // isotope filter products
     var $grid = $('.box-container').isotope({
