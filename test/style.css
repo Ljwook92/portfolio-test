@@ -300,6 +300,11 @@ header .navbar ul li a:hover{
   }
 }
 
+/*publications- start*/
+.publications-list p {
+  font-size: 2rem;
+}
+
 /* back to home button */
 .backbtn{
   display: flex;
