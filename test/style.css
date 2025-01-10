@@ -178,14 +178,15 @@ header .navbar ul li a:hover{
 .work .heading span{
   color: rgb(255, 230, 0);
 }
-.work .button-group{
-  display: flex;
-  flex-wrap: wrap;
-  gap:1rem;
-  margin: 2rem auto;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
+.work .button-group .btn {
+  outline: none;
+  padding: 1rem 2rem;
+  background: rgb(255, 230, 0); /* 배경색 설정 */
+  color: #000; /* 텍스트 색상 검정으로 설정 */
+  border: 1px solid rgb(255, 230, 0); /* 테두리도 배경색과 동일하게 설정 */
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
 }
 .work .button-group .btn{
   outline: none;
@@ -198,12 +199,12 @@ header .navbar ul li a:hover{
   font-weight: 500;
 }
 .work .button-group .btn:hover{
-  background-color: #fff;
-  color: #000;
+  background-color: #000; /* 배경색 검정으로 설정 */
+  color: rgb(255, 230, 0); /* 텍스트 색상 설정 */
 }
-.work .button-group .btn.is-checked{
-  background-color: #fff;
-  color: #000;
+.work .button-group .btn.is-checked {
+  background-color: #000; /* 배경색 검정으로 설정 */
+  color: rgb(255, 230, 0); /* 텍스트 색상 설정 */
 }
 .work .box-container{
   display: flex;
