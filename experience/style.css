@@ -156,14 +156,25 @@ header .navbar ul li a:hover{
 /* hamburger icon ends */
 
 /* publication starts*/
-.publication-list h3, .publication-list ul {
-    display: none;
+.publications-list .button-group .btn {
+  outline: none;
+  padding: 1rem 2rem;
+  background: transparent;
+  color: #333; /* 기본 글자색: 어두운 색 */
+  border: 1px solid #333; /* 기본 테두리: 어두운 색 */
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease; /* 부드러운 전환 효과 */
 }
-.publication-list h3.selected, .publication-list ul.selected {
-    display: block;
+.publications-list .button-group .btn:hover {
+  background-color: #333; /* 호버 시 배경색 */
+  color: #fff; /* 호버 시 글자색 */
 }
-.publication-list h3.accepted, .publication-list ul.accepted {
-    display: block;
+.publications-list .button-group .btn.is-checked {
+  background-color: #333; /* 선택된 상태 배경색 */
+  color: #fff; /* 선택된 상태 글자색 */
+  border-color: #333; /* 선택된 상태 테두리 */
 }
 /* publication end*/
 
