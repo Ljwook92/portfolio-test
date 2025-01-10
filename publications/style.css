@@ -325,7 +325,7 @@ header .navbar ul li a:hover{
 }
 
 .publications-list ul {
-  max-width: 90%; /* ul 너비를 조정 (전체 너비의 70%) */
+  max-width: 80%; /* ul 너비를 조정 (전체 너비의 70%) */
   margin: 0 auto; /* 가운데 정렬 */
   padding: 0 2rem; /* 내부 좌우 여백 추가 */
   font-family: 'Times New Roman', Times, serif; /* 특정 ul에 폰트 설정 */
