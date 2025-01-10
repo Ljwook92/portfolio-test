@@ -313,17 +313,27 @@ header .navbar ul li a:hover{
   color: #555; /* 텍스트 색상 */
   margin-bottom: 0.8rem; /* 각 항목 간격 추가 */
   text-align: justify;
-  font-family: "Times New Roman", Times, serif;
 }
 .publications-list ul li a {
   font-size: 1.6rem; /* 링크 글씨 크기 */
   text-decoration: none; /* 밑줄 제거 */
   color: #007acc; /* 링크 색상 */
-  font-family: "Times New Roman", Times, serif;
 }
 .publications-list ul li a:hover {
   color: #005599; /* 링크 호버 색상 */
   text-decoration: underline; /* 호버 시 밑줄 추가 */
+}
+
+.publications-list ul {
+  font-family: 'Times New Roman', Times, serif; /* 특정 ul에 폰트 설정 */
+}
+
+.publications-list ul li {
+  font-family: inherit; /* 부모의 폰트 상속 */
+}
+
+.publications-list ul li a {
+  font-family: inherit; /* 부모의 폰트 상속 */
 }
 
 /* back to home button */
