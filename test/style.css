@@ -155,6 +155,16 @@ header .navbar ul li a:hover{
 }
 /* hamburger icon ends */
 
+.publications-list ul {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.publications-list ul[style="display: block;"] {
+    opacity: 1;
+}
+
 /* work section starts */
 .work{
   /* background: #010124; */
