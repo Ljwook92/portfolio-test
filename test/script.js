@@ -100,45 +100,6 @@ document.addEventListener('visibilitychange',
 //    });
 //}
 
-function showPublications(publications) {
-    // 컨테이너 선택 및 초기화
-    const publicationsContainer = document.querySelector(".publications-list .box-container");
-    let publicationsHTML = "";
-
-    // HTML 콘텐츠 생성
-    publications.forEach(publication => {
-        publicationsHTML += `
-        <div class="grid-item ${publication.category}">
-        <div class="box" style="width: 380px; margin: 1rem">
-          <h3>${publication.name}</h3>
-          <p>${publication.desc}</p>
-          <a href="${publication.link}" class="btn" target="_blank">Read More</a>
-        </div>
-        </div>`;
-    });
-
-    // 생성된 HTML 추가
-    publicationsContainer.innerHTML = publicationsHTML;
-
-    // Isotope 초기화
-    const iso = new Isotope(publicationsContainer, {
-        itemSelector: '.grid-item',
-        layoutMode: 'fitRows',
-    });
-
-    // 버튼 클릭 이벤트 설정
-    document.querySelectorAll('.button-group .btn').forEach(button => {
-        button.addEventListener('click', () => {
-            // is-checked 클래스 업데이트
-            document.querySelector('.button-group .is-checked').classList.remove('is-checked');
-            button.classList.add('is-checked');
-
-            // 필터링 수행
-            const filterValue = button.getAttribute('data-filter');
-            iso.arrange({ filter: filterValue });
-        });
-    });
-}
 
 document.addEventListener("DOMContentLoaded", () => {
     // 버튼 클릭 이벤트 설정
@@ -152,9 +113,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const filterValue = this.getAttribute('data-filter');
             document.querySelectorAll('.publications-list ul').forEach(list => {
                 if (filterValue === '*' || list.classList.contains(filterValue.substring(1))) {
-                    list.style.display = 'block'; // 필터 조건에 맞는 경우 표시
+                    list.style.display = 'block'; // 조건에 맞는 경우 표시
                 } else {
-                    list.style.display = 'none'; // 필터 조건에 맞지 않는 경우 숨김
+                    list.style.display = 'none'; // 조건에 맞지 않는 경우 숨김
                 }
             });
         });
