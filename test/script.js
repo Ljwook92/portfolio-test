@@ -140,6 +140,27 @@ function showPublications(publications) {
     });
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    // 버튼 클릭 이벤트 설정
+    document.querySelectorAll('.button-group .btn').forEach(button => {
+        button.addEventListener('click', function () {
+            // is-checked 클래스 업데이트
+            document.querySelector('.button-group .is-checked').classList.remove('is-checked');
+            this.classList.add('is-checked');
+
+            // 필터링 로직
+            const filterValue = this.getAttribute('data-filter');
+            document.querySelectorAll('.publications-list ul').forEach(list => {
+                if (filterValue === '*' || list.classList.contains(filterValue.substring(1))) {
+                    list.style.display = 'block'; // 필터 조건에 맞는 경우 표시
+                } else {
+                    list.style.display = 'none'; // 필터 조건에 맞지 않는 경우 숨김
+                }
+            });
+        });
+    });
+});
+
 
 
 
