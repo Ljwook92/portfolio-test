@@ -133,6 +133,30 @@ function showPublications(publications) {
     });
 }
 
+// 버튼 클릭 이벤트 설정
+document.querySelectorAll('.button-group .btn').forEach(button => {
+    button.addEventListener('click', function () {
+        // 모든 버튼의 is-checked 클래스 제거
+        document.querySelectorAll('.button-group .btn').forEach(btn => {
+            btn.classList.remove('is-checked');
+        });
+
+        // 현재 클릭된 버튼에 is-checked 클래스 추가
+        this.classList.add('is-checked');
+
+        // data-filter 값을 가져와 필터링 동작 수행
+        const filterValue = this.getAttribute('data-filter');
+        document.querySelectorAll('.publications-list ul').forEach(list => {
+            if (filterValue === '*' || list.classList.contains(filterValue.substring(1))) {
+                list.style.display = 'block'; // 필터 조건에 맞는 경우 표시
+            } else {
+                list.style.display = 'none'; // 필터 조건에 맞지 않는 경우 숨김
+            }
+        });
+    });
+});
+
+
 
 getProjects().then(data => {
     showProjects(data);
