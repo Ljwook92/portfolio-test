@@ -101,8 +101,11 @@ document.addEventListener('visibilitychange',
 //}
 
 function showPublications(publications) {
-    let publicationsContainer = document.querySelector(".publications-list .box-container");
+    // 컨테이너 선택 및 초기화
+    const publicationsContainer = document.querySelector(".publications-list .box-container");
     let publicationsHTML = "";
+
+    // HTML 콘텐츠 생성
     publications.forEach(publication => {
         publicationsHTML += `
         <div class="grid-item ${publication.category}">
@@ -113,48 +116,30 @@ function showPublications(publications) {
         </div>
         </div>`;
     });
+
+    // 생성된 HTML 추가
     publicationsContainer.innerHTML = publicationsHTML;
 
-    // isotope filter publications
-    var $grid = $('.box-container').isotope({
+    // Isotope 초기화
+    const iso = new Isotope(publicationsContainer, {
         itemSelector: '.grid-item',
         layoutMode: 'fitRows',
-        masonry: {
-            columnWidth: 200
-        }
     });
 
-    // filter items on button click
-    $('.button-group').on('click', 'button', function () {
-        $('.button-group').find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
+    // 버튼 클릭 이벤트 설정
+    document.querySelectorAll('.button-group .btn').forEach(button => {
+        button.addEventListener('click', () => {
+            // is-checked 클래스 업데이트
+            document.querySelector('.button-group .is-checked').classList.remove('is-checked');
+            button.classList.add('is-checked');
+
+            // 필터링 수행
+            const filterValue = button.getAttribute('data-filter');
+            iso.arrange({ filter: filterValue });
+        });
     });
 }
 
-// 버튼 클릭 이벤트 설정
-document.querySelectorAll('.button-group .btn').forEach(button => {
-    button.addEventListener('click', function () {
-        // 모든 버튼의 is-checked 클래스 제거
-        document.querySelectorAll('.button-group .btn').forEach(btn => {
-            btn.classList.remove('is-checked');
-        });
-
-        // 현재 클릭된 버튼에 is-checked 클래스 추가
-        this.classList.add('is-checked');
-
-        // data-filter 값을 가져와 필터링 동작 수행
-        const filterValue = this.getAttribute('data-filter');
-        document.querySelectorAll('.publications-list ul').forEach(list => {
-            if (filterValue === '*' || list.classList.contains(filterValue.substring(1))) {
-                list.style.display = 'block'; // 필터 조건에 맞는 경우 표시
-            } else {
-                list.style.display = 'none'; // 필터 조건에 맞지 않는 경우 숨김
-            }
-        });
-    });
-});
 
 
 
