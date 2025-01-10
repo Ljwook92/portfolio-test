@@ -198,8 +198,8 @@ header .navbar ul li a:hover{
   outline: none;
   padding: 1rem 2rem;
   background: transparent;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #000;
+  border: 1px solid #000;
   border-radius: 3px;
   cursor: pointer;
   font-weight: 500;
